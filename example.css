@@ -39,20 +39,39 @@ h1 {
 	margin:10px auto;
 }
 
+.logo{
+	margin-top: 30px;
+	width: 300px;
+	float: left;
+}
+
 #card-table {
 	background-color:green;
 	height:600px;
 	width:800px;
-	border:solid 6px brown;
+	border:solid 6px #8D230F;
 	border-radius:8px;
 	-webkit-border-radius:8px;
 	-moz-border-radius:8px;
 	-ms-border-radius:8px;
 	-o-border-radius:8px;
 	box-shadow:#111 1px 1px 2px;
+	display: block;
 	
+}
+
+#card-table-start-screen{
+	background-color:green;
+	height:800px;
+	width:1115px;
+	border:solid 6px #8D230F;
+	border-radius:8px;
+	-webkit-border-radius:8px;
+	-moz-border-radius:8px;
+	-ms-border-radius:8px;
+	-o-border-radius:8px;
+	box-shadow:#111 1px 1px 2px;
 	display: inline-block;
-	
 }
 
 #chat{
@@ -71,6 +90,209 @@ h1 {
 	-o-border-radius:8px;
 	box-shadow:#111 1px 1px 2px;
 }
+
+#room-table{
+	margin: 25px;
+	background-color: rgb(0, 61, 10);
+	width: 400px;
+	height: 590px;
+	display: inline-block;
+	overflow-y: scroll;
+	border-radius: 8px;
+	padding-top: 40px;
+}
+
+#create-room{
+	margin: 20px 25px 0px 25px;
+	width: 440px;
+	height: 100px;
+	display: inline-block;
+	background-color: rgb(0, 61, 10);
+	border-radius: 8px;
+}
+
+#inputs-create{
+	display: inline;
+}
+
+.createButton{
+	margin: 10px 150px;
+	width:150px;
+	height: 35px;
+	border-radius: 8px;
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	background-color: #8D230F;
+  	border: none;
+  	color: white;
+}
+
+.createInput{
+	border-radius: 8px;
+	width: 175px;
+	margin-top: 10px;
+	margin-left: 15px;
+	height: 20px;
+	padding: 5px 10px 5px 10px;
+	background-color: rgb(47, 88, 0);
+	border: none;
+	color:white;
+	font-size:16px;
+}
+
+.searchInput{
+	border-radius: 8px;
+	width: 320px;
+	margin-bottom: 10px;
+	margin-left: 15px;
+	height: 20px;
+	padding: 5px 10px 5px 10px;
+	background-color: rgb(47, 88, 0);
+	border: none;
+	color:white;
+	font-size:16px;
+}
+
+::placeholder{
+	font-size: 16px;
+	color:whitesmoke;
+	opacity: .7;
+}
+
+
+.room{
+	width: 150px;
+	height: 150px;
+	margin: 10px;
+	background-color: rgb(47, 88, 0);
+	border-radius:8px;
+	-webkit-border-radius:8px;
+	-moz-border-radius:8px;
+	-ms-border-radius:8px;
+	-o-border-radius:8px;
+	box-shadow:#111 1px 1px 2px;
+	display: inline-block;
+	border: 5px solid #8D230F;
+	color:white;
+	margin-top:20px
+}
+
+.roomName{
+	text-align: center;
+	background-color: #8D230F;
+}
+
+
+.playerNumber{
+	margin-left: 10px;
+}
+
+.status{
+	margin-left: 10px;
+}
+
+.hostName{
+	margin-left: 10px;
+}
+
+.joinButtontab{
+	margin-left:45px;
+	margin-bottom: 20px;
+}
+
+.joinButton{
+	margin: 0px;
+	width: 60px;
+	height: 25px;
+	border-radius: 8px;
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	background-color: #8D230F;
+  	border: none;
+  	color: white;
+}
+
+.playerNumber h5{
+	margin-top: 10px;
+
+}
+
+.status h5{
+	margin-top: 10px;
+
+}
+
+.hostName h5{
+	margin-top: 10px;
+
+}
+
+.roomName h4{
+	padding-top: 15px;
+	padding-bottom: 5px;
+	margin-top: 0px;
+	margin-bottom: 10px;
+}
+
+
+
+#userinfo{
+	display: block;
+	margin:20px;
+	margin-right: 55px;
+	width:250px;
+	height: 760px;
+	border-radius:8px;
+	-webkit-border-radius:8px;
+	-moz-border-radius:8px;
+	-ms-border-radius:8px;
+	-o-border-radius:8px;
+	box-shadow:#111 1px 1px 2px;
+	background-color: rgb(0, 61, 10);
+	float: left;
+}
+
+#usericon{
+	display: block;
+	height: 210px;
+	widows: 210px;
+	border-radius: 8px;
+	margin: 20px;
+}
+
+.username{
+	color:#DDD;
+	font-family: Arial, Helvetica, sans-serif;
+	margin-bottom:50px;
+}
+
+.gamesplayed{
+	color: #DDD; 
+	font-family: Arial, Helvetica, sans-serif;
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+.playertrophy{
+	display: block;
+}
+
+.trophy{
+	width:30px;
+	margin-left:30px;
+	margin-right: 10px;
+	margin-bottom: -10px;
+	display: inline-block;
+}
+
+.numberoftrophy{
+	color:#DDD;
+	display: inline-block;
+	font-size: 25px;
+}
+
 
 #members{
 	width: 280px;
@@ -115,6 +337,29 @@ h1 {
 	overflow-y:scroll;
 }
 
+/* Let's get this party started */
+::-webkit-scrollbar {
+    width: 12px;
+}
+ 
+/* Track */
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background:	#8D230F; 
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
+::-webkit-scrollbar-thumb:window-inactive {
+	background: #8D230F; 
+}
+
 a:visited {color:blue;}
 
 #deal {
@@ -122,6 +367,8 @@ a:visited {color:blue;}
 	left:310px;
 	top:170px;
 }
+
+
 
 footer {
 	font-size : 12px;

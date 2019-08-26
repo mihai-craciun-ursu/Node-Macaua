@@ -1,0 +1,89 @@
+doctype html
+head
+  title Macaua
+  meta(charset='UTF-8')
+  link(rel='stylesheet' href='example.css')
+  script(src='jquery-1.7.min.js')
+img.preload(src='img/cards.png')
+#card-table-start-screen
+  #userinfo
+    img#usericon(src="../nopic.gif")
+    h1.username Ursu
+    h2.gamesplayed Games played: 243
+    .playertrophy
+      img.trophy(src="../gold_burned.png")
+      h2.numberoftrophy 154
+    .playertrophy  
+      img.trophy(src="../silver_burned.png")
+      h2.numberoftrophy 49
+    .playertrophy  
+      img.trophy(src="../bronze_burned.png")
+      h2.numberoftrophy 21
+  img.logo(src="../logo2.png")
+  #roominfo
+    #create-room
+      #inputs-create
+        input.createInput(type='text' placeholder='Room name' name='uname')
+        input.createInput(type='password' placeholder='Password (optional)' name='psw')
+      #button-room
+        button.createButton(type='submit') Create
+    ul#room-table
+      input.searchInput(type='text' placeholder='Search room...')
+      .room
+        .roomName
+          h4 Nume frumos
+        .playerNumber
+          h5 Players: 1/4
+        .status
+          h5 Status: waiting
+        .hostName
+          h5 Host: Ursu
+        .joinButtontab
+          button.joinButton(type='submit') Join
+      .room
+        .roomName
+          h4 Alt nume frumos
+        .playerNumber
+          h5 Players: 2/4
+        .status
+          h5 Status: waiting
+        .hostName
+          h5 Host: Ursu
+        .joinButtontab
+          button.joinButton(type='submit') Join
+      .room
+        .roomName
+          h4 Camera faina
+        .playerNumber
+          h5 Players: 1/4
+        .status
+          h5 Status: waiting
+        .hostName
+          h5 Host: Ursu
+        .joinButtontab
+          button.joinButton(type='submit') Join
+      .room
+        .roomName
+          h4 Copii de la 402
+        .playerNumber
+          h5 Players: 3/4
+        .status
+          h5 Status: playing
+        .hostName
+          h5 Host: Ursu
+        .joinButtontab
+          button.joinButton(type='submit') Join
+      .room
+        .roomName
+          h4 Sunt degeaba
+        .playerNumber
+          h5 Players: 4/4
+        .status
+          h5 Status: playing
+        .hostName
+          h5 Host: Ursu
+        .joinButtontab
+          button.joinButton(type='submit') Join
+            
+// load this at the bottom so the #card-table element exists
+script(src='https://cdn.socket.io/socket.io-1.2.0.js')
